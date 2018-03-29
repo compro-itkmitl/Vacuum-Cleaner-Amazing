@@ -1,5 +1,5 @@
 "# Vacuum-Cleaner-Amazing" 
 
-Installation
-Requirements
+Installation\n
+Requirements\n
 Library Ultrasonic: https://github.com/ErickSimoes/Ultrasonic
