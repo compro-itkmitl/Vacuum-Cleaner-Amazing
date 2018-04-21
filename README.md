@@ -14,19 +14,19 @@ Installation Requirements<br>
  ---
 ### Model<br>
 ---
-![Image](https://github.com/sagelga/ComPro_Project/blob/master/Resource/Supervisor.png) Assistant Teacher<br>
+# ![](https://github.com/sagelga/ComPro_Project/blob/master/Resource/Supervisor.png) Assistant Teacher<br>
 
 | ผศ. ดร. กิติ์สุชาติ พสุภา	| ผศ. ดร. ปานวิทย์ ธุวะนุติ  |
-| ------------- |:-------------:|
+| :-------------: |:-------------:|
 | ![Image](https://github.com/sagelga/ComPro_Project/blob/master/Resource/Aj.%20Oong.png)      | ![Image](https://github.com/sagelga/ComPro_Project/blob/master/Resource/Aj.%20Panwit.png) | $1600 |<br>
 
 Faculty of Information Technology<br>
 King Mongkut's Institute of Technology Ladkrabang
 ---
-![Image](https://github.com/sagelga/ComPro_Project/blob/master/Resource/Person.png) Member<br>
 
-|  | ชื่อ            |  นามสกุล           |GitHub Username  |รหัสนักศึกษา  |
---- | --- | --- | --- | ---|
-|   ![Image](https://avatars1.githubusercontent.com/u/32954674?s=400&v=4)| สุธี | พิละมาตย์ | [@kpez](https://github.com/kpez) | 60070105 |
-|  ![Image](https://avatars2.githubusercontent.com/u/32745451?s=400&v=4) | อภิชาติ | ชัยณรงค์ฤทธิ์ | [@apichart](https://github.com/apichart2425) | 60070111 |
-|  ![Image](https://avatars2.githubusercontent.com/u/32858339?s=400&v=4) | อภิษิญา | เงินแย้ม | [@apisiya](https://github.com/Apisiya) | 60070113 |
+# ![](https://github.com/sagelga/ComPro_Project/blob/master/Resource/Person.png) Team Members
+|  |ชื่อ|นามสกุล|GitHub Username|รหัสนักศึกษา|
+|:-:|--|------|---------------|---------|
+|| สุธี | พิละมาตย์ | [@kpez](https://github.com/kpez) | 60070105 |
+|| อภิชาติ | ชัยณรงค์ฤทธิ์ | [@apichart](https://github.com/apichart2425) | 60070111 |
+|| อภิษิญา | เงินแย้ม | [@apisiya](https://github.com/Apisiya) | 60070113 |
