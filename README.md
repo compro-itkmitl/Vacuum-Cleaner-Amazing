@@ -27,7 +27,6 @@ King Mongkut's Institute of Technology Ladkrabang
 
 |  | ชื่อ            |  นามสกุล           |GitHub Username  |รหัสนักศึกษา  |
 --- | --- | --- | --- | ---|
-|  <img src="https://avatars1.githubusercontent.com/u/32954674?s=400&v=4" data-canonical-src="https://avatars1.githubusercontent.com/u/32954674?s=400&v=4" width="200" height="150" />
- | สุธี | พิละมาตย์ | [@kpez](https://github.com/kpez) | 60070105 |
-|  ![Image](https://avatars2.githubusercontent.com/u/32745451?s=400&v=4 | width=100) | อภิชาติ | ชัยณรงค์ฤทธิ์ | [@apichart](https://github.com/apichart2425) | 60070111 |
-|  ![Image](https://avatars2.githubusercontent.com/u/32858339?s=400&v=4 | width=100) | อภิษิญา | เงินแย้ม | [@apisiya](https://github.com/Apisiya) | 60070113 |
+|   ![Image](https://avatars1.githubusercontent.com/u/32954674?s=400&v=4)| สุธี | พิละมาตย์ | [@kpez](https://github.com/kpez) | 60070105 |
+|  ![Image](https://avatars2.githubusercontent.com/u/32745451?s=400&v=4) | อภิชาติ | ชัยณรงค์ฤทธิ์ | [@apichart](https://github.com/apichart2425) | 60070111 |
+|  ![Image](https://avatars2.githubusercontent.com/u/32858339?s=400&v=4) | อภิษิญา | เงินแย้ม | [@apisiya](https://github.com/Apisiya) | 60070113 |
