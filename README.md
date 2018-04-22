@@ -18,16 +18,28 @@
 * Ultrasonic HC-SR04 x1  
 * Smart car motor + wheels x2  
 * Motor Drive Module (L298N) x1  
-* รางถ่านไฟ 4 ก้อน x1  
+* รางถ่านไฟ 4 ก้อน x1 
+* ถ่านไฟ 6v x4
 * สายไฟจัมเปอร์  
 ---
 # DOWNLOAD<br>
-![](/img/notebook.png) Installation Requirements<br>
- * Arduino IDE : https://www.arduino.cc/en/Main/Software<br>
- * Library Ultrasonic : https://github.com/ErickSimoes/Ultrasonic  <br>
- * Library AF_motor : https://github.com/adafruit/Adafruit-Motor-Shield-library Credit by tdicola <br>
- * Library MCU : ...............  <br>
- * Library Blynk: https://www.blynk.cc/getting-started/<br>
+![](/img/notebook.png) Installation Requirements Library<br>
+ * [Arduino](https://www.arduino.cc/en/Main/Software)<br>
+ * [Ultrasonic](https://github.com/ErickSimoes/Ultrasonic)  <br>
+ * [AF_motor](https://github.com/adafruit/Adafruit-Motor-Shield-library) Credit by tdicola <br>
+ * [MCU]() <br>
+ * [Blynk](https://github.com/blynkkk/blynk-library)  
+ 
+### ADD ESP8266  
+1. open arduino.io  
+2. File -> Preference -> add this url: http://arduino.esp8266.com/stable/package_esp8266com_index.json   
+to Additional Boards Manager URLs -> ok  
+3. Tools -> Board -> Boards Manager
+Type esp8266 in search -> install  
+
+### Install Library  
+ * Sketch -> Include library -> Add.Zip Library...  
+ * Select all Zip file
  ---
 ### Model<br>
 ---
@@ -37,13 +49,15 @@
 | :-------------: |:-------------:|
 | ![Image](https://github.com/sagelga/ComPro_Project/blob/master/Resource/Aj.%20Oong.png)      | ![Image](https://github.com/sagelga/ComPro_Project/blob/master/Resource/Aj.%20Panwit.png) | $1600 |<br>
 
-Faculty of Information Technology<br>
-King Mongkut's Institute of Technology Ladkrabang
+รายงานนี้เป็นส่วนหนึ่งของวิชา Computer Programming (รหัส 06016315)<br>
+คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
 ---
-
 # ![](/img/member.png) Team Members
 |  |ชื่อ|นามสกุล|GitHub Username|รหัสนักศึกษา|
 |:-:|--|------|---------------|---------|
 |![](/img/oven.jpg)| สุธี | พิละมาตย์ | [@kpez](https://github.com/kpez) | 60070105 |
 |![](/img/pack.jpg)| อภิชาติ | ชัยณรงค์ฤทธิ์ | [@apichart](https://github.com/apichart2425) | 60070111 |
 |![](/img/patty.jpg)| อภิษิญา | เงินแย้ม | [@apisiya](https://github.com/Apisiya) | 60070113 |
+---
+Faculty of Information Technology<br>
+King Mongkut's Institute of Technology Ladkrabang
