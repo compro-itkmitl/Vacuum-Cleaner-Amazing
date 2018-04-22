@@ -9,7 +9,7 @@
  ![](/img/ip_user.png)<br>
 3. ทำการลงซอฟแวร์ที่ชื่อ vacuum ใน Aduino  
 ---
-# ![](/Resource/Settings.png) Equipment  
+# ![](/Resource/Settings.png) Tools  
 * Arduino Uno R3 x1  
 * NODE MCU V3    x1  
 * Breadboard x1  
@@ -44,6 +44,6 @@ King Mongkut's Institute of Technology Ladkrabang
 # ![](https://github.com/sagelga/ComPro_Project/blob/master/Resource/Person.png) Team Members
 |  |ชื่อ|นามสกุล|GitHub Username|รหัสนักศึกษา|
 |:-:|--|------|---------------|---------|
-|| สุธี | พิละมาตย์ | [@kpez](https://github.com/kpez) | 60070105 |
-|| อภิชาติ | ชัยณรงค์ฤทธิ์ | [@apichart](https://github.com/apichart2425) | 60070111 |
-|| อภิษิญา | เงินแย้ม | [@apisiya](https://github.com/Apisiya) | 60070113 |
+|![](/img/oven.jpg)| สุธี | พิละมาตย์ | [@kpez](https://github.com/kpez) | 60070105 |
+|![](/img/pack.jpg)| อภิชาติ | ชัยณรงค์ฤทธิ์ | [@apichart](https://github.com/apichart2425) | 60070111 |
+|![](/img/patty.jpg)| อภิษิญา | เงินแย้ม | [@apisiya](https://github.com/Apisiya) | 60070113 |
