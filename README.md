@@ -30,7 +30,6 @@
  * [Arduino](https://www.arduino.cc/en/Main/Software)<br>
  * [Ultrasonic](https://github.com/ErickSimoes/Ultrasonic)  <br>
  * [AF_motor](https://github.com/adafruit/Adafruit-Motor-Shield-library) Credit by tdicola <br>
- * [MCU]() <br>
  * [Blynk](https://github.com/blynkkk/blynk-library)  
  
 ### ADD ESP8266  
