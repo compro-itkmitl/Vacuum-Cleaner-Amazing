@@ -45,9 +45,9 @@ Type esp8266 in search -> install
 ---
 # ![](/img/Supervisor.png) Assistant Teacher<br>
 
-| ผศ. ดร. กิติ์สุชาติ พสุภา	| ผศ. ดร. ปานวิทย์ ธุวะนุติ  |
+| ผศ. ดร. กิติ์สุชาต พสุภา	| ผศ. ดร. ปานวิทย์ ธุวะนุติ  |
 | :-------------: |:-------------:|
-| ![Image](https://github.com/sagelga/ComPro_Project/blob/master/Resource/Aj.%20Oong.png)      | ![Image](https://github.com/sagelga/ComPro_Project/blob/master/Resource/Aj.%20Panwit.png) | $1600 |<br>
+| ![](/img/Aj. Oong.png)      | ![](/img/Aj. Panwit.png) | $1600 |<br>
 
 รายงานนี้เป็นส่วนหนึ่งของวิชา Computer Programming (รหัส 06016315)<br>
 คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
