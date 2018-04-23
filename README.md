@@ -7,10 +7,10 @@
 2. หลังการดาวน์โหลด กด New Project ตามรูปด่านล่าง  
  ![](/img/new_projectBlynk.png)<br>
 3. ทำการเพิ่มปุ่มกด Button และตั้งค่า PIN เป็น Virtual ตามรูป
- ![](/img/UI_blynk.png) ![](/img/v1.png) ![](/img/v2.png) ![](/img/v3.png) ![](/img/v4.png) ![](/img/v5.png)<br>
-4. ทำการลงซอฟแวร์ที่ชื่อ Blynk_MCU ใน Node_MCU และทำการแก้ไข Wifi_id , Wifi_passwords , auth(สามารถเข้าไปดูได้ที่ e-mail ที่สมัคร Blynk) ให้ตรงกับ Wifi ของท่าน  
+| ![Image](/img/UI_blynk.png)| ![Image](/img/v1.jpg) | ![Image](/img/v2.jpg) | ![Image](/img/v3.jpg) | ![Image](/img/v4.jpg) | ![Image](/img/v5.jpg) |<br>
+4. ทำการลงซอฟแวร์ที่ชื่อ Blynk_MCU ในโฟลเดอร์ Main Project CP60 ให้แก่ตัว Node_MCU และทำการแก้ไข Wifi_id , Wifi_passwords , auth(สามารถเข้าไปดูได้ที่ e-mail ที่สมัคร Blynk) ให้ตรงกับ Wifi ของท่าน  
  ![](/img/ip_user.png)<br>
- 5. ทำการลงซอฟแวร์ที่ชื่อ vacuum ใน Aduino  
+ 5. ทำการลงซอฟแวร์ที่ชื่อ vacuum ในในโฟลเดอร์ Main Project CP60 ให้แก่ตัว Aduino  
 ---
 # ![](/img/tools.png) Tools  
 * Arduino Uno R3 x1  
@@ -30,7 +30,6 @@
  * [Arduino](https://www.arduino.cc/en/Main/Software)<br>
  * [Ultrasonic](https://github.com/ErickSimoes/Ultrasonic)  <br>
  * [AF_motor](https://github.com/adafruit/Adafruit-Motor-Shield-library) Credit by tdicola <br>
- * [MCU]() <br>
  * [Blynk](https://github.com/blynkkk/blynk-library)  
  
 ### ADD ESP8266  
@@ -46,9 +45,9 @@ Type esp8266 in search -> install
 ---
 # ![](/img/Supervisor.png) Assistant Teacher<br>
 
-| ผศ. ดร. กิติ์สุชาติ พสุภา	| ผศ. ดร. ปานวิทย์ ธุวะนุติ  |
+| ผศ. ดร. กิติ์สุชาต พสุภา	| ผศ. ดร. ปานวิทย์ ธุวะนุติ  |
 | :-------------: |:-------------:|
-| ![Image](https://github.com/sagelga/ComPro_Project/blob/master/Resource/Aj.%20Oong.png)      | ![Image](https://github.com/sagelga/ComPro_Project/blob/master/Resource/Aj.%20Panwit.png) | $1600 |<br>
+| ![](/img/Aj. Oong.png)      | ![](/img/Aj. Panwit.png) | $1600 |<br>
 
 รายงานนี้เป็นส่วนหนึ่งของวิชา Computer Programming (รหัส 06016315)<br>
 คณะเทคโนโลยีสารสนเทศ สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
