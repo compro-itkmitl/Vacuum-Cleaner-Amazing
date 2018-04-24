@@ -29,53 +29,42 @@ void loop(){
   Distance = sonic(); //call function sonic to check obstacle 
   int Distance_Right = 0; 
   int Distance_Left =  0;
-
   if(Distance <= 15){ //Check Distance to area
-    moveStop(); 
-    delay(100);
-    Distance_Right = lookRight(); //call lookRight check obstacle
-    Distance_Left = lookLeft();   //call lookLeft check obstacle 
+    moveStop();
+    delay(500);
+    Distance_Left = lookLeft();
 
-    if(Distance_Right == Distance_Left){ 
-      moveBackward();
-      delay(500);
-      moveStop();
-      while(1){ // check Right & Left to choice forword
-        Distance_Right = lookRight();
-        Distance_Right = lookLeft();
-        if(Distance_Right > Distance_Left){
-          turnRight(); 
-          moveStop();
-          break;
-        }
-        else if(Distance_Left > Distance_Right){
-          turnLeft(); 
-          break;
-        }
-        else if (Distance_Right < Distance_Left){
-          moveBackward();
-          continue;
-        }
-      }
-    }
-    else if(Distance_Right > Distance_Left){ 
-      turnRight(); 
-      moveStop();
-    }
-    else if (Distance_Right < Distance_Left){ 
+    if(Distance_Left > 20){ 
       turnLeft(); 
-      moveStop(); 
+      delay(1000);
+      moveStop();
     }
-  } //END Check area
+    else{
+      Distance_Right = lookRight();
+      if(Distance_Right > 20){
+          turnRight(); 
+          delay(1000);
+          moveStop();
+        }
+        else{
+          moveBackward();
+          delay(2000);
+          turnRight();
+          delay(1000); 
+          }
+      }
+  }
+  //END Check area
   //sonic check to forward
   else{ 
     moveForward(); 
   }//End automove
 
+
   //Controller
-  if(NodeSerial.available() > 0)
-  {
-    while(1){
+if(NodeSerial.available() > 0)
+{
+  while(1){
       MCU_input = NodeSerial.read(); //read value return from NodeSerial
       Serial.println(MCU_input);
 
@@ -102,29 +91,38 @@ void loop(){
   }//END controller
 }
 
-
 //servo turnRight for check ultrasonic
-int lookRight() {    
-  Distance = sonic(); // call Function sonic
-  Serial.print("Distance in CM R: ");
-  myservo.write(90);  // myservo.write(__) in blank is a degree to turn servo 
-  delay(500);
-  myservo.write(0);  // myservo.write(__) in blank is a degree to turn servo
-  delay(500);
-  myservo.write(90);
-  return Distance;
+int lookRight() 
+{    
+    int Distance;
+    
+    myservo.write(90);  // myservo.write(__) in blank is a degree to turn servo
+    delay(500);
+    myservo.write(0);  // myservo.write(__) in blank is a degree to turn servo
+    delay(1000);
+    Distance = ultrasonic.distanceRead();
+    Serial.print("Dis R:");
+    Serial.println(Distance);
+    delay(500);
+    myservo.write(90);
+    return Distance;
 }
 
 //servo turnLeft for check ultrasonic
-int lookLeft(){   
-  Distance = sonic(); // call Function sonic
-  Serial.print("Distance in CM L: ");
-  myservo.write(90); // myservo.write(__) in blank is a degree to turn servo    
-  delay(500); 
-  myservo.write(180); // myservo.write(__) in blank is a degree to turn servo
-  delay(500);
-  myservo.write(90);
-  return Distance;
+int lookLeft()
+{   
+    int Distance;
+    
+    myservo.write(90); // myservo.write(__) in blank is a degree to turn servo  
+    delay(500);
+    myservo.write(160); // myservo.write(__) in blank is a degree to turn servo
+    delay(1000);
+    Distance = ultrasonic.distanceRead();
+    Serial.print("Dis L:");
+    Serial.println(Distance);
+    delay(500);
+    myservo.write(90);
+    return Distance;
 }
 
 int sonic(){
@@ -139,6 +137,7 @@ int sonic(){
   lange = ultrasonic.distanceRead();
   Serial.print("Distance in CM: ");
   Serial.println(lange);
+  delayMicroseconds(10);
   return lange;
 }
 
